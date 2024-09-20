@@ -1,0 +1,36 @@
+html {
+    min-width: 780px;
+}
+
+.header-row {
+    font-size: 18px;
+    padding-top: 5px;
+    float: right;
+    color: #E5E7EB;
+}
+
+header a {
+    padding-left: 20px;
+    display: inline-flex;
+}
+
+#header-logo {
+    font-size: 24px;
+    margin-top: 0px;
+    display: inline-flex;
+    flex-flow: column;
+    color: #F9FAF8;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+header {
+    height: 10%;
+}
+
+.side-space {
+    margin-right: 10%;
+    margin-left: 10%;
+}
