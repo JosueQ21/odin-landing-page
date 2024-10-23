@@ -43,6 +43,7 @@ header {
 body{
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .awesome{
@@ -160,7 +161,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 300px;
 
     .blue-box{
         background-color: #3882F6;
@@ -196,6 +197,15 @@ body{
 #call-to-action-bottom{
     font-weight: lighter;
     font-size: small;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    font-size: small;
+    height: 50px;
+    align-content: center;
 }
 
 /* * {
