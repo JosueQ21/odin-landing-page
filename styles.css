@@ -156,6 +156,48 @@ body{
     font-size: 18px;
 }
 
+.fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+
+    .blue-box{
+        background-color: #3882F6;
+        width: 800px;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .call-to-action{
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        .call-to-action-button{
+            background-color: #3882F6;
+            color: white;
+            width: 100px;
+            border-color: white;
+            border-radius: 8px;
+            border: solid;
+            border-width: thin;
+        }
+    }
+}
+
+#call-to-action-top{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#call-to-action-bottom{
+    font-weight: lighter;
+    font-size: small;
+}
+
 /* * {
     border-style: solid;
     border-color: pink;
